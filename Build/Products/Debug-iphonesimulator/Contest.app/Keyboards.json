@@ -1,0 +1,109 @@
+{
+    "keyboards": [
+                   {
+                   "key": "0",
+                   "character": "AM",
+                   "group":"Numeric"
+                   },
+                   {
+                   "key": "1",
+                   "character": "2",
+                   "group":"Numeric"
+                   },
+                   {
+                  "key": "2",
+                  "character": "3",
+                  "group":"Numeric"
+                   },
+                   {
+                  "key": "3",
+                  "character": "4",
+                  "group":"Numeric"
+                   },
+                   {
+                  "key": "4",
+                  "character": "5",
+                  "group":"Numeric"
+                   },
+                   {
+                  "key": "5",
+                  "character": "6",
+                  "group":"Numeric"
+                   },
+                   {
+                  "key": "6",
+                  "character": "7",
+                  "group":"Numeric"
+                   },
+                  {
+                  "key": "7",
+                  "character": "8",
+                  "group":"Numeric"
+                  },
+                  {
+                  "key": "8",
+                  "character": "9",
+                  "group":"Numeric"
+                  },
+                  {
+                  "key": "9",
+                  "character": "0",
+                  "group":"Numeric"
+                  },
+                  {
+                  "key": "10",
+                  "character": "A",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "11",
+                  "character": "B",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "12",
+                  "character": "C",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "13",
+                  "character": "D",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "14",
+                  "character": "E",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "15",
+                  "character": "F",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "16",
+                  "character": "G",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "17",
+                  "character": "H",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "18",
+                  "character": "I",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "19",
+                  "character": "J",
+                  "group":"Roman"
+                  },
+                  {
+                  "key": "20",
+                  "character": "K",
+                  "group":"Roman"
+                  }
+                  ]
+}

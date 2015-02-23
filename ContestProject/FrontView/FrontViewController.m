@@ -35,6 +35,11 @@
     UIBarButtonItem *rightRevealButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"reveal-icon.png"]
         style:UIBarButtonItemStyleBordered target:revealController action:@selector(rightRevealToggle:)];
     self.navigationItem.rightBarButtonItem = rightRevealButtonItem;
+    
+    
+    // Set Tabtor Keyboard
+    TabtorKeyboard *customKeyboard = [[TabtorKeyboard alloc] init];
+    [customKeyboard setTextView:self.answerInput];
 }
 
 #pragma mark - Example Code

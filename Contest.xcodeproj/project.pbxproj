@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310335911A9B0F550039DDFB /* TabtorKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103358F1A9B0F550039DDFB /* TabtorKeyboard.m */; };
+		310335921A9B0F550039DDFB /* TabtorKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310335901A9B0F550039DDFB /* TabtorKeyboard.xib */; };
+		310335D51A9B3A3B0039DDFB /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 310335D41A9B3A3B0039DDFB /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		310335D61A9B3AB80039DDFB /* Keyboards.json in Resources */ = {isa = PBXBuildFile; fileRef = 310335D11A9B38450039DDFB /* Keyboards.json */; };
+		310335D91A9B3CAE0039DDFB /* Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 310335D81A9B3CAE0039DDFB /* Keyboard.m */; };
 		31EE1EA21A9708C100E1FE1D /* CustomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EE1E7E1A9708C100E1FE1D /* CustomAnimationController.m */; };
 		31EE1EA41A9708C100E1FE1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31EE1E811A9708C100E1FE1D /* InfoPlist.strings */; };
 		31EE1EA71A9708C100E1FE1D /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EE1E891A9708C100E1FE1D /* FrontViewController.m */; };
@@ -29,6 +34,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3103358E1A9B0F550039DDFB /* TabtorKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabtorKeyboard.h; sourceTree = "<group>"; };
+		3103358F1A9B0F550039DDFB /* TabtorKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabtorKeyboard.m; sourceTree = "<group>"; };
+		310335901A9B0F550039DDFB /* TabtorKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabtorKeyboard.xib; sourceTree = "<group>"; };
+		310335D11A9B38450039DDFB /* Keyboards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Keyboards.json; sourceTree = "<group>"; };
+		310335D31A9B3A3B0039DDFB /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		310335D41A9B3A3B0039DDFB /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		310335D71A9B3CAE0039DDFB /* Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
+		310335D81A9B3CAE0039DDFB /* Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyboard.m; sourceTree = "<group>"; };
 		31EE1E7D1A9708C100E1FE1D /* CustomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationController.h; sourceTree = "<group>"; };
 		31EE1E7E1A9708C100E1FE1D /* CustomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationController.m; sourceTree = "<group>"; };
 		31EE1E821A9708C100E1FE1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -75,9 +88,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3103358D1A9B0F550039DDFB /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3103358E1A9B0F550039DDFB /* TabtorKeyboard.h */,
+				3103358F1A9B0F550039DDFB /* TabtorKeyboard.m */,
+				310335901A9B0F550039DDFB /* TabtorKeyboard.xib */,
+				310335D11A9B38450039DDFB /* Keyboards.json */,
+				310335D71A9B3CAE0039DDFB /* Keyboard.h */,
+				310335D81A9B3CAE0039DDFB /* Keyboard.m */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		310335D21A9B3A3B0039DDFB /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				310335D31A9B3A3B0039DDFB /* JSONKit.h */,
+				310335D41A9B3A3B0039DDFB /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
 		31EE1E7B1A9708C100E1FE1D /* ContestProject */ = {
 			isa = PBXGroup;
 			children = (
+				310335D21A9B3A3B0039DDFB /* JSONKit */,
+				3103358D1A9B0F550039DDFB /* Keyboard */,
 				31EE1E7C1A9708C100E1FE1D /* CustomAnimation */,
 				31EE1E811A9708C100E1FE1D /* InfoPlist.strings */,
 				31EE1E871A9708C100E1FE1D /* FrontView */,
@@ -256,10 +293,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310335D61A9B3AB80039DDFB /* Keyboards.json in Resources */,
 				31EE1EB61A9708FC00E1FE1D /* RearViewController.xib in Resources */,
 				31EE1EA41A9708C100E1FE1D /* InfoPlist.strings in Resources */,
 				31EE1EAD1A9708C100E1FE1D /* reveal-icon@2x.png in Resources */,
 				31EE1EAF1A9708C100E1FE1D /* RightViewController.xib in Resources */,
+				310335921A9B0F550039DDFB /* TabtorKeyboard.xib in Resources */,
 				31EE1EAC1A9708C100E1FE1D /* reveal-icon.png in Resources */,
 				31EE1EB41A9708F300E1FE1D /* FrontViewController.xib in Resources */,
 				31EE1EAB1A9708C100E1FE1D /* Default-568h@2x.png in Resources */,
@@ -274,13 +313,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				31EE1EAE1A9708C100E1FE1D /* RightViewController.m in Sources */,
+				310335D91A9B3CAE0039DDFB /* Keyboard.m in Sources */,
 				31EE1EA91A9708C100E1FE1D /* RearViewController.m in Sources */,
 				31EE1EB01A9708C100E1FE1D /* AppDelegate.m in Sources */,
 				31EE1EB21A9708C100E1FE1D /* SWRevealViewController.m in Sources */,
+				310335D51A9B3A3B0039DDFB /* JSONKit.m in Sources */,
 				31EE1EA81A9708C100E1FE1D /* MapViewController.m in Sources */,
 				31EE1EA71A9708C100E1FE1D /* FrontViewController.m in Sources */,
 				31EE1EB11A9708C100E1FE1D /* main.m in Sources */,
 				31EE1EA21A9708C100E1FE1D /* CustomAnimationController.m in Sources */,
+				310335911A9B0F550039DDFB /* TabtorKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

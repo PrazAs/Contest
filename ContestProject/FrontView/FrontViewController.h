@@ -6,7 +6,14 @@
 //  Copyright (c) 2015 Prazas, Inc., The. All rights reserved.
 
 #import <UIKit/UIKit.h>
+#import "TabtorKeyboard.h"
 
-@interface FrontViewController : UIViewController
+@interface FrontViewController : UIViewController {
+    
+    
+}
+
+@property (atomic,retain) IBOutlet UITextField *answerInput;
+@property (atomic,retain) IBOutlet UILabel     *questionText;
 
 @end

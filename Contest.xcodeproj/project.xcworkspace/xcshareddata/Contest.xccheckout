@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F7172E9-AE1B-4FEC-82B6-80F0C1223DE1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Contest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6968FEAEB02B35E78746466034426E3C06392871</key>
+		<string>https://github.com/PrazAs/Contest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Contest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6968FEAEB02B35E78746466034426E3C06392871</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/PrazAs/Contest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6968FEAEB02B35E78746466034426E3C06392871</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6968FEAEB02B35E78746466034426E3C06392871</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Contest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
